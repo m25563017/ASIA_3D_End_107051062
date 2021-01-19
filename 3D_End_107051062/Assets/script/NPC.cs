@@ -5,7 +5,7 @@ using System.Collections;       // 引用 系統.集合 API (包含協同程序)
 public class NPC : MonoBehaviour
 {
     [Header("NPC 資料")]
-    public NPCData data;
+    public NPCdata data;
     [Header("對話框")]
     public GameObject dialog;
     [Header("對話內容")]
